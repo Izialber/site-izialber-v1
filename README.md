@@ -1,4 +1,4 @@
-# Site pessoal — Izialber Santos
+# Site pessoal — Izialber Muniz
 
 Site estático em Next.js (App Router, export estático), bilíngue PT/EN, construído para o COBENGE.
 

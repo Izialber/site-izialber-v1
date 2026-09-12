@@ -2,7 +2,7 @@ import type { Dictionary } from './types';
 
 const pt: Dictionary = {
   meta: {
-    title: 'Izialber Santos | Pesquisador em Automação Industrial e Cibersegurança OT',
+    title: 'Izialber Muniz | Pesquisador em Automação Industrial e Cibersegurança OT',
     description:
       'Pesquisador na fronteira entre engenharia industrial, automação e regulação profissional. Especialista em cibersegurança OT/IACS, ISA/IEC 62443, IoT e Indústria 4.0.',
   },
@@ -19,17 +19,17 @@ const pt: Dictionary = {
     subhead:
       'Cibersegurança OT/IACS · ISA/IEC 62443 · IoT · Indústria 4.0',
     intro:
-      'Izi (Izialber) é engenheiro eletricista com atuação em automação e cibersegurança industrial (OT/IACS), credenciado como revisor ISA/IEC 62443. Sua trajetória começou como técnico e seguiu em paralelo com os estudos — graduação, pós-graduação e, mais recentemente, mestrado em Engenharia de Produção pelo CEFET/RJ — sempre conciliados com a atuação prática na indústria, incluindo passagem pela sede da Shell em Houston (EUA). Hoje, pesquisa temas de automação, IoT e conformidade regulatória na indústria, e está em busca de orientação para doutorado.',
+      'Izi (Izialber) é engenheiro eletricista com atuação em automação e cibersegurança industrial (OT/IACS), credenciado como revisor ISA/IEC 62443. Sua trajetória começou como técnico e seguiu em paralelo com os estudos: graduação, pós-graduação e, mais recentemente, mestrado em Engenharia de Produção pelo CEFET/RJ, sempre conciliados com a atuação prática na indústria, incluindo passagem pela sede da Shell em Houston (EUA). Hoje, pesquisa temas de automação, IoT e conformidade regulatória na indústria.',
     ctaPrimary: 'Ver publicações',
     ctaSecondary: 'Entrar em contato',
-    photoAlt: 'Foto de perfil de Izialber Santos',
-    role: 'Engenheiro de Cibersegurança de Sistemas de Controle Industrial, Shell — Rio de Janeiro',
+    photoAlt: 'Foto de perfil de Izialber Muniz',
+    role: 'Engenheiro de Cibersegurança de Sistemas de Controle Industrial, Shell, Rio de Janeiro',
   },
   publications: {
     kicker: 'Pesquisa',
     title: 'Publicações & Pesquisa',
     intro:
-      'Produção acadêmica e técnica em automação industrial, IoT e cibersegurança OT/IACS. Esta seção está em atualização — novos artigos e links serão adicionados em breve.',
+      'Produção acadêmica e técnica em automação industrial, IoT e cibersegurança OT/IACS. Esta seção está em atualização; novos artigos e links serão adicionados em breve.',
     statusPublished: 'Publicado',
     statusInProgress: 'Em andamento',
     statusAccepted: 'Aprovado',
@@ -41,7 +41,7 @@ const pt: Dictionary = {
     kicker: 'Trajetória',
     title: 'Duas trilhas, um só percurso',
     intro:
-      'Formação acadêmica e atuação profissional caminharam sempre em paralelo — do curso técnico ao mestrado, do chão de fábrica à cibersegurança de sistemas de controle industrial.',
+      'Formação acadêmica e atuação profissional caminharam sempre em paralelo: do curso técnico ao mestrado, do chão de fábrica à cibersegurança de sistemas de controle industrial.',
     trackProfessional: 'Trilha Profissional',
     trackAcademic: 'Trilha Acadêmica',
     present: 'Atual',
@@ -58,13 +58,13 @@ const pt: Dictionary = {
     lattesLabel: 'Currículo Lattes',
     orcidLabel: 'ORCID',
     formTitle: 'Ou envie uma mensagem',
-    formIntro: 'Alternativa ao contato direto — preencha o formulário abaixo.',
+    formIntro: 'Alternativa ao contato direto: preencha o formulário abaixo.',
     formName: 'Nome',
     formEmail: 'E-mail',
     formMessage: 'Mensagem',
     formSubmit: 'Enviar mensagem',
     formNote:
-      '[Formulário em configuração — integração de envio a ser conectada antes da publicação]',
+      '[Formulário em configuração; integração de envio a ser conectada antes da publicação]',
   },
   footer: {
     rights: 'Todos os direitos reservados.',

@@ -12,7 +12,7 @@ export default function Footer({
     <footer className="border-t border-graphite-700/60">
       <div className="mx-auto flex max-w-content flex-col gap-4 px-6 py-10 text-sm text-graphite-400 sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-12">
         <div>
-          <p className="font-serif text-graphite-100">Izialber Santos</p>
+          <p className="font-serif text-graphite-100">{siteConfig.name}</p>
           <p>{dict.footer.location}</p>
         </div>
         <div className="flex gap-6">
@@ -32,7 +32,7 @@ export default function Footer({
           </a>
         </div>
         <p>
-          &copy; {new Date().getFullYear()} Izialber Santos. {dict.footer.rights}
+          &copy; {new Date().getFullYear()} {siteConfig.name}. {dict.footer.rights}
         </p>
       </div>
     </footer>

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Dictionary, Locale } from '@/content/dictionaries';
+import { siteConfig } from '@/content/site';
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header({
@@ -23,7 +24,7 @@ export default function Header({
             href={`/${lang}`}
             className="font-serif text-lg font-semibold tracking-tight text-graphite-50"
           >
-            Izialber Santos
+            {siteConfig.name}
           </Link>
 
           <nav className="hidden items-center gap-8 text-sm text-graphite-200 sm:flex">

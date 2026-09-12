@@ -1,9 +1,7 @@
 // Dados de contato e configuração geral do site.
-// TODO: substituir os placeholders abaixo pelos dados reais antes de publicar.
 export const siteConfig = {
-  name: 'Izialber Santos',
-  // TODO: confirmar qual e-mail deve ficar público no site (pessoal, profissional, ou dedicado).
-  email: 'seuemail@exemplo.com',
+  name: 'Izialber Muniz',
+  email: 'Izialber@gmail.com',
   linkedinUrl: 'https://www.linkedin.com/in/izialber/',
   lattesUrl: 'http://lattes.cnpq.br/3216603966162180',
   orcidUrl: 'https://orcid.org/0000-0001-5576-943X',

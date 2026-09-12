@@ -15,7 +15,7 @@ const serif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: 'Izialber Santos',
+  title: 'Izialber Muniz',
   description:
     'Industrial researcher at the intersection of engineering, automation, and professional regulation.',
 };
