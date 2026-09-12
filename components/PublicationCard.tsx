@@ -3,8 +3,16 @@ import type { Publication } from '@/content/publications';
 
 const statusStyles: Record<Publication['status'], string> = {
   published: 'text-accent-light border-accent/40',
+  accepted: 'text-accent-light border-accent/40',
   'in-progress': 'text-amber-300/90 border-amber-300/30',
   thesis: 'text-graphite-200 border-graphite-500/40',
+};
+
+const statusLabels: Record<Publication['status'], keyof Dictionary['publications']> = {
+  published: 'statusPublished',
+  accepted: 'statusAccepted',
+  'in-progress': 'statusInProgress',
+  thesis: 'statusThesis',
 };
 
 export default function PublicationCard({
@@ -16,12 +24,7 @@ export default function PublicationCard({
   dict: Dictionary;
   publication: Publication;
 }) {
-  const statusLabel =
-    publication.status === 'published'
-      ? dict.publications.statusPublished
-      : publication.status === 'in-progress'
-        ? dict.publications.statusInProgress
-        : dict.publications.statusThesis;
+  const statusLabel = dict.publications[statusLabels[publication.status]];
 
   const title = lang === 'pt' ? publication.titlePt : publication.titleEn;
   const summary = lang === 'pt' ? publication.summaryPt : publication.summaryEn;

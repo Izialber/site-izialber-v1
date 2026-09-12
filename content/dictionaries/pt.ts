@@ -23,7 +23,7 @@ const pt: Dictionary = {
     ctaPrimary: 'Ver publicações',
     ctaSecondary: 'Entrar em contato',
     photoAlt: 'Foto de perfil de Izialber Santos',
-    role: 'IT Site Operations Lead, Shell — Rio de Janeiro',
+    role: 'Engenheiro de Cibersegurança de Sistemas de Controle Industrial, Shell — Rio de Janeiro',
   },
   publications: {
     kicker: 'Pesquisa',
@@ -32,6 +32,7 @@ const pt: Dictionary = {
       'Produção acadêmica e técnica em automação industrial, IoT e cibersegurança OT/IACS. Esta seção está em atualização — novos artigos e links serão adicionados em breve.',
     statusPublished: 'Publicado',
     statusInProgress: 'Em andamento',
+    statusAccepted: 'Aprovado',
     statusThesis: 'Dissertação',
     viewLink: 'Acessar publicação',
     linkPending: 'Link em breve',
@@ -40,7 +41,7 @@ const pt: Dictionary = {
     kicker: 'Trajetória',
     title: 'Duas trilhas, um só percurso',
     intro:
-      'Formação acadêmica e atuação profissional caminharam sempre em paralelo — do curso técnico ao mestrado, do chão de fábrica à liderança de operações de TI industrial.',
+      'Formação acadêmica e atuação profissional caminharam sempre em paralelo — do curso técnico ao mestrado, do chão de fábrica à cibersegurança de sistemas de controle industrial.',
     trackProfessional: 'Trilha Profissional',
     trackAcademic: 'Trilha Acadêmica',
     present: 'Atual',

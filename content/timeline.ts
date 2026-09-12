@@ -10,53 +10,59 @@ export interface TimelineEntry {
   descriptionEn?: string;
 }
 
-// Fonte: Currículo Lattes (http://lattes.cnpq.br/3216603966162180), atualizado em 06/01/2026.
+// Fontes: LinkedIn (www.linkedin.com/in/izialber) e Currículo Lattes
+// (http://lattes.cnpq.br/3216603966162180). Datas com precisão de mês conforme LinkedIn.
 // Ordem: do mais recente para o mais antigo (renderizada de cima para baixo).
-// NOTA: o Lattes descreve o cargo atual com escopo de atuação em Houston (sede),
-// mas ajustei a localização para Rio de Janeiro conforme informado diretamente —
-// confirme qual está correta antes de publicar.
 
 export const professionalTrack: TimelineEntry[] = [
   {
-    id: 'shell-it-lead',
-    period: '2024 – atual',
+    id: 'shell-ics-cyber-2',
+    period: 'fev 2026 – atual',
     current: true,
-    titlePt: 'IT Site Operations Lead — Shell',
-    titleEn: 'IT Site Operations Lead — Shell',
-    descriptionPt: 'Rio de Janeiro, Brasil.',
-    descriptionEn: 'Rio de Janeiro, Brazil.',
+    titlePt: 'Engenheiro de Cibersegurança de Sistemas de Controle Industrial — Shell',
+    titleEn: 'Industrial Control Systems Cyber Security Engineer — Shell',
+    descriptionPt: 'Rio de Janeiro, Brasil (híbrido).',
+    descriptionEn: 'Rio de Janeiro, Brazil (hybrid).',
   },
   {
-    id: 'shell-engenheiro-seguranca',
-    period: '2019 – 2024',
-    titlePt: 'Engenheiro de Segurança da Informação Industrial — Shell',
-    titleEn: 'Industrial Information Security Engineer — Shell',
+    id: 'shell-it-lead',
+    period: 'ago 2024 – jan 2026',
+    titlePt: 'IT Site Operations Lead — Shell',
+    titleEn: 'IT Site Operations Lead — Shell',
+    descriptionPt: 'Atribuição temporária na sede. Houston, Texas, Estados Unidos.',
+    descriptionEn: 'Temporary assignment at headquarters. Houston, Texas, United States.',
+  },
+  {
+    id: 'shell-ics-cyber-1',
+    period: 'mai 2019 – set 2024',
+    titlePt: 'Engenheiro de Cibersegurança de Sistemas de Controle Industrial — Shell',
+    titleEn: 'Industrial Control Systems Cyber Security Engineer — Shell',
     descriptionPt: 'Sistemas de Controle e Automação Industrial (IACS) e cibersegurança. Rio de Janeiro, Brasil.',
     descriptionEn: 'Industrial Automation and Control Systems (IACS) and cybersecurity. Rio de Janeiro, Brazil.',
   },
   {
-    id: 'pg-energia-controle',
-    period: '2015 – 2019',
-    titlePt: 'Energia, Controle, Instrumentação e Sistemas — Procter & Gamble',
-    titleEn: 'Energy, Control, Instrumentation and Systems — Procter & Gamble',
-    descriptionPt: 'Coordenação do sistema de segurança cibernética e projetos de automação. Dedicação exclusiva.',
-    descriptionEn: 'Coordination of the cybersecurity system and automation projects. Full-time dedication.',
+    id: 'pg-power-control-cyber',
+    period: 'jul 2015 – mai 2019',
+    titlePt: 'Líder de Energia, Controle e Sistemas de Informação / Cibersegurança — Procter & Gamble',
+    titleEn: 'Power, Control and Information Systems / Cyber Security Leader — Procter & Gamble',
+    descriptionPt: 'Coordenação do sistema de segurança cibernética e projetos de automação. Rio de Janeiro.',
+    descriptionEn: 'Coordination of the cybersecurity system and automation projects. Rio de Janeiro.',
   },
   {
     id: 'pg-eletrica-instrumentacao',
-    period: '2012 – 2015',
-    titlePt: 'Elétrica e Instrumentação — Procter & Gamble',
-    titleEn: 'Electrical and Instrumentation — Procter & Gamble',
+    period: 'jul 2012 – jul 2015',
+    titlePt: 'Técnico de Elétrica e Instrumentação — Procter & Gamble',
+    titleEn: 'Electrical and Instrumentation Technician — Procter & Gamble',
     descriptionPt: 'Comissionamento e partida de projeto greenfield; automação industrial (Rockwell).',
     descriptionEn: 'Commissioning and start-up of a greenfield project; industrial automation (Rockwell).',
   },
   {
     id: 'michelin-estagio',
-    period: '2011 – 2012',
-    titlePt: 'Estagiário de Eletrotécnica — Michelin',
-    titleEn: 'Electrical Engineering Intern — Michelin',
-    descriptionPt: 'Manutenção preventiva e corretiva de máquinas industriais.',
-    descriptionEn: 'Preventive and corrective maintenance of industrial machinery.',
+    period: 'fev 2012 – jun 2012',
+    titlePt: 'Estagiário Técnico em Eletrotécnica — Michelin',
+    titleEn: 'Electrical Technician Intern — Michelin',
+    descriptionPt: 'Manutenção preventiva e corretiva de máquinas industriais. Rio de Janeiro.',
+    descriptionEn: 'Preventive and corrective maintenance of industrial machinery. Rio de Janeiro.',
   },
 ];
 
@@ -76,9 +82,9 @@ export const academicTrack: TimelineEntry[] = [
   },
   {
     id: 'mba-seguranca-informacao',
-    period: '2020 – 2022',
-    titlePt: 'MBA em Gestão da Segurança da Informação — Instituto Eficaz',
-    titleEn: 'MBA in Information Security Management — Instituto Eficaz',
+    period: 'ago 2021 – mar 2022',
+    titlePt: 'MBA em Gestão da Segurança da Informação — Uniciv',
+    titleEn: 'MBA in Information Security Management — Uniciv',
   },
   {
     id: 'graduacao-eng-eletrica',

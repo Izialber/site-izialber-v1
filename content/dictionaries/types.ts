@@ -27,6 +27,7 @@ export interface Dictionary {
     intro: string;
     statusPublished: string;
     statusInProgress: string;
+    statusAccepted: string;
     statusThesis: string;
     viewLink: string;
     linkPending: string;

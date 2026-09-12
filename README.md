@@ -26,12 +26,12 @@ Todos os campos que ainda precisam de dado real estão marcados com `TODO` ou `[
 
 ### Pendências para você resolver antes de publicar
 
-1. **Foto de perfil**: adicione o arquivo em `public/images/profile.jpg` (quadrada, mín. 400×400px) e troque `profileImage` em `content/site.ts` para `/images/profile.jpg`.
-2. **E-mail público**: defina em `content/site.ts` (`email`) qual endereço deve aparecer no site.
-3. **Publicações**: preencha `content/publications.ts` com os dados reais (dissertação, artigos do ResearchGate, COBENGE, Portugal) e ajuste os `status` (`published` / `in-progress` / `thesis`).
-4. **Datas da timeline**: ajuste os períodos (`20XX`) em `content/timeline.ts` com os anos reais de cada etapa.
-5. **Formulário de contato**: crie um formulário em [Formspree](https://formspree.io) (gratuito) e cole o endpoint em `content/site.ts` (`contactFormEndpoint`). Enquanto estiver vazio, o formulário fica visualmente pronto mas desabilitado, com um aviso.
-6. **URL final do site**: depois do deploy, atualize `siteUrl` em `content/site.ts` (usado no SEO/sitemap).
+1. **E-mail público**: defina em `content/site.ts` (`email`) qual endereço deve aparecer no site (hoje está com um placeholder).
+2. **Formulário de contato**: crie um formulário em [Formspree](https://formspree.io) (gratuito) e cole o endpoint em `content/site.ts` (`contactFormEndpoint`). Enquanto estiver vazio, o formulário fica visualmente pronto mas desabilitado, com um aviso.
+3. **URL final do site**: depois do deploy, atualize `siteUrl` em `content/site.ts` (usado no SEO/sitemap).
+4. **Links das publicações**: `content/publications.ts` já tem os dados reais (Lattes + e-mails de aprovação COBENGE/ENEGEP 2026); falta só adicionar os links (DOI/anais) quando saírem.
+
+Foto de perfil e datas da timeline já foram preenchidas com dados reais (Lattes + LinkedIn).
 
 ## Deploy
 

@@ -1,4 +1,4 @@
-export type PublicationStatus = 'published' | 'in-progress' | 'thesis';
+export type PublicationStatus = 'published' | 'in-progress' | 'accepted' | 'thesis';
 
 export interface Publication {
   id: string;
@@ -12,10 +12,9 @@ export interface Publication {
   link: string | null;
 }
 
-// Fonte: Currículo Lattes (http://lattes.cnpq.br/3216603966162180), atualizado em 06/01/2026.
-// TODO: os itens marcados com [a definir] ainda não constam no Lattes — atualizar
-// quando o COBENGE 2026 e o artigo sobre Portugal tiverem título/resumo/link definidos.
-// TODO: adicionar links (DOI/ResearchGate/repositório) quando disponíveis.
+// Fontes: Currículo Lattes (http://lattes.cnpq.br/3216603966162180, atualizado em 06/01/2026)
+// e e-mails de aprovação COBENGE 2026 / ENEGEP 2026 (ABEPRO).
+// TODO: adicionar links (DOI/ResearchGate/anais/repositório) quando disponíveis.
 export const publications: Publication[] = [
   {
     id: 'dissertacao-mestrado',
@@ -68,25 +67,29 @@ export const publications: Publication[] = [
     link: null,
   },
   {
-    id: 'cobenge-artigo',
-    status: 'in-progress',
+    id: 'cobenge-2026',
+    status: 'accepted',
     year: '2026',
-    venue: 'COBENGE — Congresso Brasileiro de Educação em Engenharia',
-    titlePt: '[Título do artigo do COBENGE — a definir]',
-    titleEn: '[COBENGE paper title — to be defined]',
-    summaryPt: '[Resumo do artigo do COBENGE a ser adicionado.]',
-    summaryEn: '[Summary of the COBENGE paper to be added.]',
+    venue: 'COBENGE 2026 — Congresso Brasileiro de Educação em Engenharia (Sessões Técnicas)',
+    titlePt: 'Alinhamento dos projetos pedagógicos dos cursos de engenharia de produção às Diretrizes Curriculares Nacionais de 2019: uma análise documental no município do Rio de Janeiro',
+    titleEn: 'Alignment of production engineering pedagogical projects with the 2019 National Curriculum Guidelines: a documentary analysis in the city of Rio de Janeiro',
+    summaryPt:
+      'Trabalho aprovado pela Comissão Científica do COBENGE 2026 para apresentação em Sessão Técnica. Análise documental sobre a aderência dos projetos pedagógicos dos cursos de engenharia de produção às DCNs de 2019, com foco no município do Rio de Janeiro.',
+    summaryEn:
+      'Paper accepted by the COBENGE 2026 Scientific Committee for presentation in a Technical Session. Documentary analysis of how production engineering programs align with the 2019 National Curriculum Guidelines, focused on the city of Rio de Janeiro.',
     link: null,
   },
   {
-    id: 'artigo-portugal',
-    status: 'in-progress',
-    year: '20XX',
-    venue: '[Veículo/evento em Portugal — a definir]',
-    titlePt: '[Título do artigo sobre Portugal — a definir]',
-    titleEn: '[Portugal-related paper title — to be defined]',
-    summaryPt: '[Resumo do artigo a ser adicionado.]',
-    summaryEn: '[Paper summary to be added.]',
+    id: 'enegep-2026',
+    status: 'accepted',
+    year: '2026',
+    venue: 'ENEGEP 2026 — Encontro Nacional de Engenharia de Produção (ABEPRO)',
+    titlePt: 'Curricularização da Indústria 4.0 nos cursos de engenharia de produção: análise documental ponderada à luz das DCNs de 2019',
+    titleEn: 'Curricularization of Industry 4.0 in production engineering programs: a documentary analysis weighted against the 2019 National Curriculum Guidelines (DCNs)',
+    summaryPt:
+      'Trabalho aprovado pelo Comitê Científico do ENEGEP 2026 (ABEPRO). Análise documental sobre a curricularização da Indústria 4.0 nos cursos de engenharia de produção, ponderada à luz das DCNs de 2019.',
+    summaryEn:
+      'Paper accepted by the ENEGEP 2026 Scientific Committee (ABEPRO). Documentary analysis on the curricularization of Industry 4.0 in production engineering programs, weighted against the 2019 National Curriculum Guidelines.',
     link: null,
   },
 ];

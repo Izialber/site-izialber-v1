@@ -22,7 +22,7 @@ const en: Dictionary = {
     ctaPrimary: 'View publications',
     ctaSecondary: 'Get in touch',
     photoAlt: 'Profile photo of Izialber Santos',
-    role: 'IT Site Operations Lead, Shell — Rio de Janeiro',
+    role: 'Industrial Control Systems Cyber Security Engineer, Shell — Rio de Janeiro',
   },
   publications: {
     kicker: 'Research',
@@ -31,6 +31,7 @@ const en: Dictionary = {
       'Academic and technical output in industrial automation, IoT, and OT/IACS cybersecurity. This section is being updated — new papers and links will be added shortly.',
     statusPublished: 'Published',
     statusInProgress: 'In progress',
+    statusAccepted: 'Accepted',
     statusThesis: 'Thesis',
     viewLink: 'View publication',
     linkPending: 'Link coming soon',
@@ -39,7 +40,7 @@ const en: Dictionary = {
     kicker: 'Trajectory',
     title: 'Two tracks, one path',
     intro:
-      'Academic training and professional practice have always run in parallel — from technical school to a master’s degree, from the shop floor to leading industrial IT operations.',
+      'Academic training and professional practice have always run in parallel — from technical school to a master’s degree, from the shop floor to industrial control systems cybersecurity.',
     trackProfessional: 'Professional Track',
     trackAcademic: 'Academic Track',
     present: 'Present',
