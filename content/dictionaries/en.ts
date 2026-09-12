@@ -53,6 +53,8 @@ const en: Dictionary = {
       'Professors and potential advisors interested in discussing doctoral supervision are welcome to reach out directly by email or LinkedIn.',
     emailLabel: 'Email',
     linkedinLabel: 'LinkedIn',
+    lattesLabel: 'Lattes CV',
+    orcidLabel: 'ORCID',
     formTitle: 'Or send a message',
     formIntro: 'An alternative to direct contact — fill out the form below.',
     formName: 'Name',

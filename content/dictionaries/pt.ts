@@ -54,6 +54,8 @@ const pt: Dictionary = {
       'Professores e orientadores interessados em discutir uma possível orientação de doutorado são bem-vindos a entrar em contato diretamente por e-mail ou LinkedIn.',
     emailLabel: 'E-mail',
     linkedinLabel: 'LinkedIn',
+    lattesLabel: 'Currículo Lattes',
+    orcidLabel: 'ORCID',
     formTitle: 'Ou envie uma mensagem',
     formIntro: 'Alternativa ao contato direto — preencha o formulário abaixo.',
     formName: 'Nome',

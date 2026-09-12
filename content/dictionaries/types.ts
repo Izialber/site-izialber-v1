@@ -47,6 +47,8 @@ export interface Dictionary {
     intro: string;
     emailLabel: string;
     linkedinLabel: string;
+    lattesLabel: string;
+    orcidLabel: string;
     formTitle: string;
     formIntro: string;
     formName: string;

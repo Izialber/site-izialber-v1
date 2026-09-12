@@ -33,6 +33,25 @@ export default function ContactSection({
               {dict.contact.linkedinLabel}
             </a>
           </div>
+
+          <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-graphite-400">
+            <a
+              href={siteConfig.lattesUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-accent-light"
+            >
+              {dict.contact.lattesLabel} &rarr;
+            </a>
+            <a
+              href={siteConfig.orcidUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-accent-light"
+            >
+              {dict.contact.orcidLabel} &rarr;
+            </a>
+          </div>
         </div>
 
         <div className="card">

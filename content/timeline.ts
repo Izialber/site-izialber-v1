@@ -10,13 +10,16 @@ export interface TimelineEntry {
   descriptionEn?: string;
 }
 
-// TODO: ajustar os períodos ("20XX") com os anos reais de cada etapa.
+// Fonte: Currículo Lattes (http://lattes.cnpq.br/3216603966162180), atualizado em 06/01/2026.
 // Ordem: do mais recente para o mais antigo (renderizada de cima para baixo).
+// NOTA: o Lattes descreve o cargo atual com escopo de atuação em Houston (sede),
+// mas ajustei a localização para Rio de Janeiro conforme informado diretamente —
+// confirme qual está correta antes de publicar.
 
 export const professionalTrack: TimelineEntry[] = [
   {
-    id: 'shell-rio-lead',
-    period: '20XX – atual',
+    id: 'shell-it-lead',
+    period: '2024 – atual',
     current: true,
     titlePt: 'IT Site Operations Lead — Shell',
     titleEn: 'IT Site Operations Lead — Shell',
@@ -24,36 +27,36 @@ export const professionalTrack: TimelineEntry[] = [
     descriptionEn: 'Rio de Janeiro, Brazil.',
   },
   {
-    id: 'shell-houston',
-    period: '20XX – 20XX',
-    titlePt: 'Atuação na sede global — Shell',
-    titleEn: 'Assignment at global headquarters — Shell',
-    descriptionPt: 'Houston, Estados Unidos.',
-    descriptionEn: 'Houston, United States.',
+    id: 'shell-engenheiro-seguranca',
+    period: '2019 – 2024',
+    titlePt: 'Engenheiro de Segurança da Informação Industrial — Shell',
+    titleEn: 'Industrial Information Security Engineer — Shell',
+    descriptionPt: 'Sistemas de Controle e Automação Industrial (IACS) e cibersegurança. Rio de Janeiro, Brasil.',
+    descriptionEn: 'Industrial Automation and Control Systems (IACS) and cybersecurity. Rio de Janeiro, Brazil.',
   },
   {
-    id: 'shell-rio-engenheiro',
-    period: '20XX – 20XX',
-    titlePt: 'Engenheiro — Shell',
-    titleEn: 'Engineer — Shell',
-    descriptionPt: 'Rio de Janeiro, Brasil.',
-    descriptionEn: 'Rio de Janeiro, Brazil.',
+    id: 'pg-energia-controle',
+    period: '2015 – 2019',
+    titlePt: 'Energia, Controle, Instrumentação e Sistemas — Procter & Gamble',
+    titleEn: 'Energy, Control, Instrumentation and Systems — Procter & Gamble',
+    descriptionPt: 'Coordenação do sistema de segurança cibernética e projetos de automação. Dedicação exclusiva.',
+    descriptionEn: 'Coordination of the cybersecurity system and automation projects. Full-time dedication.',
   },
   {
-    id: 'engenheiro-eletricista',
-    period: '20XX – 20XX',
-    titlePt: 'Engenheiro Eletricista',
-    titleEn: 'Electrical Engineer',
-    descriptionPt: 'Início da atuação como engenheiro, após a graduação.',
-    descriptionEn: 'Start of engineering practice, following graduation.',
+    id: 'pg-eletrica-instrumentacao',
+    period: '2012 – 2015',
+    titlePt: 'Elétrica e Instrumentação — Procter & Gamble',
+    titleEn: 'Electrical and Instrumentation — Procter & Gamble',
+    descriptionPt: 'Comissionamento e partida de projeto greenfield; automação industrial (Rockwell).',
+    descriptionEn: 'Commissioning and start-up of a greenfield project; industrial automation (Rockwell).',
   },
   {
-    id: 'tecnico',
-    period: '20XX – 20XX',
-    titlePt: 'Técnico',
-    titleEn: 'Technician',
-    descriptionPt: 'Primeira atuação profissional, em paralelo ao início dos estudos.',
-    descriptionEn: 'First professional role, alongside the start of his studies.',
+    id: 'michelin-estagio',
+    period: '2011 – 2012',
+    titlePt: 'Estagiário de Eletrotécnica — Michelin',
+    titleEn: 'Electrical Engineering Intern — Michelin',
+    descriptionPt: 'Manutenção preventiva e corretiva de máquinas industriais.',
+    descriptionEn: 'Preventive and corrective maintenance of industrial machinery.',
   },
 ];
 
@@ -67,26 +70,26 @@ export const academicTrack: TimelineEntry[] = [
   },
   {
     id: 'mestrado-cefet',
-    period: '20XX – 20XX',
-    titlePt: 'Mestrado em Engenharia de Produção — CEFET/RJ (PPPRO)',
-    titleEn: 'Master’s in Production Engineering — CEFET/RJ (PPPRO)',
+    period: '2021 – em andamento',
+    titlePt: 'Mestrado em Engenharia de Produção e Sistemas — CEFET/RJ',
+    titleEn: 'Master’s in Production Engineering and Systems — CEFET/RJ',
   },
   {
-    id: 'mba-uniciv',
-    period: '20XX – 20XX',
-    titlePt: 'MBA em Gestão de Segurança da Informação — Uniciv',
-    titleEn: 'MBA in Information Security Management — Uniciv',
+    id: 'mba-seguranca-informacao',
+    period: '2020 – 2022',
+    titlePt: 'MBA em Gestão da Segurança da Informação — Instituto Eficaz',
+    titleEn: 'MBA in Information Security Management — Instituto Eficaz',
   },
   {
-    id: 'graduacao',
-    period: '20XX – 20XX',
-    titlePt: 'Graduação em Engenharia Elétrica (CREA-RJ)',
-    titleEn: 'Bachelor’s in Electrical Engineering (CREA-RJ)',
+    id: 'graduacao-eng-eletrica',
+    period: '2013 – 2021',
+    titlePt: 'Graduação em Engenharia Elétrica — Universidade Estácio de Sá (CREA-RJ)',
+    titleEn: 'Bachelor’s in Electrical Engineering — Universidade Estácio de Sá (CREA-RJ)',
   },
   {
     id: 'curso-tecnico',
-    period: '20XX – 20XX',
-    titlePt: 'Curso Técnico',
-    titleEn: 'Technical School',
+    period: '2008 – 2012',
+    titlePt: 'Técnico em Eletrotécnica — IFRJ',
+    titleEn: 'Technical Degree in Electrical Engineering — IFRJ',
   },
 ];
