@@ -56,14 +56,6 @@ const en: Dictionary = {
     linkedinLabel: 'LinkedIn',
     lattesLabel: 'Lattes CV',
     orcidLabel: 'ORCID',
-    formTitle: 'Or send a message',
-    formIntro: 'An alternative to direct contact: fill out the form below.',
-    formName: 'Name',
-    formEmail: 'Email',
-    formMessage: 'Message',
-    formSubmit: 'Send message',
-    formNote:
-      '[Form being configured; submission integration to be connected before publishing]',
   },
   footer: {
     rights: 'All rights reserved.',

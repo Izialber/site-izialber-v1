@@ -57,14 +57,6 @@ const pt: Dictionary = {
     linkedinLabel: 'LinkedIn',
     lattesLabel: 'Currículo Lattes',
     orcidLabel: 'ORCID',
-    formTitle: 'Ou envie uma mensagem',
-    formIntro: 'Alternativa ao contato direto: preencha o formulário abaixo.',
-    formName: 'Nome',
-    formEmail: 'E-mail',
-    formMessage: 'Mensagem',
-    formSubmit: 'Enviar mensagem',
-    formNote:
-      '[Formulário em configuração; integração de envio a ser conectada antes da publicação]',
   },
   footer: {
     rights: 'Todos os direitos reservados.',

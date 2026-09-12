@@ -4,7 +4,7 @@ import { locales } from '@/content/dictionaries';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return locales.map((locale) => ({
-    url: `${siteConfig.siteUrl}/${locale}`,
+    url: `${siteConfig.domains[locale]}/${locale}`,
     lastModified: new Date(),
     changeFrequency: 'monthly',
     priority: 1,

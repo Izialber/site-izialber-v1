@@ -15,7 +15,7 @@ export async function generateMetadata({
   params: { lang: Locale };
 }): Promise<Metadata> {
   const dict = getDictionary(params.lang);
-  const url = `${siteConfig.siteUrl}/${params.lang}`;
+  const url = `${siteConfig.domains[params.lang]}/${params.lang}`;
 
   return {
     title: dict.meta.title,
@@ -23,8 +23,8 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: {
-        pt: `${siteConfig.siteUrl}/pt`,
-        en: `${siteConfig.siteUrl}/en`,
+        pt: `${siteConfig.domains.pt}/pt`,
+        en: `${siteConfig.domains.en}/en`,
       },
     },
     openGraph: {

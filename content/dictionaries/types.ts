@@ -50,13 +50,6 @@ export interface Dictionary {
     linkedinLabel: string;
     lattesLabel: string;
     orcidLabel: string;
-    formTitle: string;
-    formIntro: string;
-    formName: string;
-    formEmail: string;
-    formMessage: string;
-    formSubmit: string;
-    formNote: string;
   };
   footer: {
     rights: string;
