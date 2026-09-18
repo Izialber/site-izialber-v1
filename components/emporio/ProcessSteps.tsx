@@ -1,6 +1,5 @@
-import Image from 'next/image';
-import { asset } from '@/config/emporio';
 import { home } from '@/content/emporio/home';
+import Photo from './Photo';
 import { Reveal, RevealGroup, RevealItem } from './Reveal';
 import { Section, SectionHeading } from './ui';
 
@@ -14,14 +13,7 @@ export default function ProcessSteps() {
             <SectionHeading title={t.title} text={t.text} dark />
           </Reveal>
           <Reveal className="relative mt-10 aspect-[16/10] overflow-hidden" delay={0.1}>
-            <Image
-              src={asset('/images/processo-corte.svg')}
-              alt={t.imageAlt}
-              fill
-              loading="lazy"
-              sizes="(min-width: 1024px) 40vw, 100vw"
-              className="object-cover"
-            />
+            <Photo src="/images/processo-corte.jpg" alt={t.imageAlt} sizes="(min-width: 1024px) 40vw, 100vw" />
           </Reveal>
         </div>
         <RevealGroup as="ol" className="border-t border-osso-100/15 lg:col-span-7">

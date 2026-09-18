@@ -10,7 +10,7 @@ type PageMeta = {
 // Metadata por página. Canonical, Open Graph e indexação seguem INDEXABLE.
 export function pageMetadata({ title, description, path }: PageMeta): Metadata {
   const url = absoluteUrl(path);
-  const ogImage = asset('/images/og-default.png');
+  const ogImage = asset('/images/og-default.jpg');
 
   return {
     title,

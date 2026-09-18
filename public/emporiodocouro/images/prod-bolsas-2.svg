@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img" aria-label="Necessaire aberta">
-<defs><pattern id="p" width="48" height="48" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="48" height="48" fill="#3D2314"/><rect width="2" height="48" fill="#54301A"/></pattern></defs>
-<rect width="1200" height="1200" fill="url(#p)"/>
-<rect x="72" y="72" width="1056" height="1056" fill="none" stroke="#A6832E" stroke-opacity="0.5" stroke-width="2"/>
-<text x="50%" y="48%" text-anchor="middle" font-family="Georgia, serif" font-size="43" fill="#D4AC85">Necessaire aberta</text>
-<text x="50%" y="48%" dy="68.8" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" fill="#C08F5C">placeholder 1200x1200</text>
-</svg>

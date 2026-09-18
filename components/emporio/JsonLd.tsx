@@ -5,7 +5,7 @@ export default function JsonLd() {
   if (!INDEXABLE) return null;
 
   const url = absoluteUrl('/');
-  const logo = `${url.replace(/\/$/, '')}${asset('/images/og-default.png')}`;
+  const logo = `${url.replace(/\/$/, '')}${asset('/images/og-default.jpg')}`;
   const sameAs = [company.instagram, company.linkedin].filter((u) => u && !u.includes('TODO'));
 
   const organization = {

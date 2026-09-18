@@ -1,9 +1,9 @@
-import Image from 'next/image';
 import CtaSection from '@/components/emporio/CtaSection';
 import PageHero from '@/components/emporio/PageHero';
+import Photo from '@/components/emporio/Photo';
 import { Reveal, RevealGroup, RevealItem } from '@/components/emporio/Reveal';
 import { Section, SectionHeading, SpecList } from '@/components/emporio/ui';
-import { asset, company } from '@/config/emporio';
+import { company } from '@/config/emporio';
 import { privateLabel } from '@/content/emporio/private-label';
 import { pageMetadata } from '../_lib/seo';
 
@@ -26,7 +26,7 @@ export default function PrivateLabelPage() {
       <PageHero
         title={t.hero.title}
         text={t.hero.text}
-        image="/images/private-label-amostra.svg"
+        image="/images/private-label-amostra.jpg"
         imageAlt={t.hero.imageAlt}
       />
 
@@ -75,14 +75,7 @@ export default function PrivateLabelPage() {
               <SectionHeading title={t.customization.title} text={t.customization.text} />
             </Reveal>
             <Reveal className="relative mt-10 aspect-[4/3] overflow-hidden" delay={0.1}>
-              <Image
-                src={asset('/images/private-label-gravacao.svg')}
-                alt={t.customization.imageAlt}
-                fill
-                loading="lazy"
-                sizes="(min-width: 1024px) 40vw, 100vw"
-                className="object-cover"
-              />
+              <Photo src="/images/private-label-gravacao.jpg" alt={t.customization.imageAlt} sizes="(min-width: 1024px) 40vw, 100vw" />
             </Reveal>
           </div>
           <RevealGroup as="ul" className="border-t border-osso-300 lg:col-span-7">

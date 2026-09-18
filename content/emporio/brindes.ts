@@ -7,7 +7,7 @@ export const brindes = {
   hero: {
     title: 'Brindes em couro que a sua empresa tem orgulho de entregar.',
     text: 'Peças produzidas na mesma fábrica que atende marcas de moda, com a logo da sua empresa gravada e embalagem pronta para presentear clientes, parceiros e equipes.',
-    imageAlt: 'Kit corporativo em couro com carteira, chaveiro e porta-cartões',
+    imageAlt: 'Kit corporativo em couro com chaveiros e porta-moedas',
   },
   line: {
     title: 'Linha para empresas',

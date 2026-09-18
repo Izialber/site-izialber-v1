@@ -37,7 +37,7 @@ export const home = {
         slug: 'cintos',
         title: 'Cintos',
         text: 'Social, casual, tressê e reversível, masculino e feminino. Nossa maior linha de produção, com constância de qualidade em grande escala.',
-        image: '/images/cat-cintos.svg',
+        image: '/images/cat-cintos.jpg',
         imageAlt: 'Cintos de couro alinhados sobre bancada',
         specs: [
           ['Modelos', 'Social, casual, tressê, reversível'],
@@ -48,7 +48,7 @@ export const home = {
         slug: 'carteiras',
         title: 'Carteiras e porta-cartões',
         text: 'Peças pequenas com acabamento preciso, prontas para compor coleções completas.',
-        image: '/images/cat-carteiras.svg',
+        image: '/images/cat-carteiras.jpg',
         imageAlt: 'Carteira de couro aberta mostrando os compartimentos',
         specs: [
           ['Modelos', 'Carteira, porta-cartões, porta-documentos'],
@@ -59,7 +59,7 @@ export const home = {
         slug: 'bolsas',
         title: 'Bolsas e mini bags',
         text: 'Desenvolvimento sob medida para coleções de moda, do molde à ferragem.',
-        image: '/images/cat-bolsas.svg',
+        image: '/images/cat-bolsas.jpg',
         imageAlt: 'Mini bag de couro com alça de corrente',
         specs: [
           ['Modelos', 'Bolsa, mini bag, necessaire'],
@@ -70,8 +70,8 @@ export const home = {
         slug: 'acessorios',
         title: 'Chaveiros, pulseiras e acessórios',
         text: 'Itens complementares de coleção e de ações de marca, produzidos com a mesma matéria-prima das peças principais.',
-        image: '/images/cat-acessorios.svg',
-        imageAlt: 'Chaveiros e pulseiras de couro sobre fundo escuro',
+        image: '/images/cat-acessorios.jpg',
+        imageAlt: 'Chaveiro e porta-cartões de couro sobre mesa de madeira',
         specs: [
           ['Modelos', 'Chaveiro, pulseira, tag, porta-fone'],
           ['Personalização', 'Gravação, ferragem, cor do couro'],
@@ -81,8 +81,8 @@ export const home = {
         slug: 'brindes',
         title: 'Brindes corporativos',
         text: 'Peças de couro personalizadas com a logo da empresa, para presentear clientes e equipes com identidade.',
-        image: '/images/cat-brindes.svg',
-        imageAlt: 'Kit de brindes em couro com gravação de logotipo',
+        image: '/images/cat-brindes.jpg',
+        imageAlt: 'Kit de brindes em couro com chaveiros e porta-moedas',
         specs: [
           ['Modelos', 'Kits, carteiras, chaveiros, porta-cartões'],
           ['Personalização', 'Gravação de logo, embalagem, cartão'],

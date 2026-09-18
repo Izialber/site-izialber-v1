@@ -71,7 +71,7 @@ export const privateLabel = {
         text: 'Etiqueta interna costurada ou gravada, tag externa com código e composição, e etiqueta de pré-preço quando solicitado.',
       },
     ],
-    imageAlt: 'Gravação a quente de logotipo em couro',
+    imageAlt: 'Costura contrastante em couro preto, detalhe de acabamento',
   },
   cta: {
     title: 'Tem um briefing pronto?',

@@ -1,9 +1,9 @@
-import Image from 'next/image';
 import CtaSection from '@/components/emporio/CtaSection';
 import PageHero from '@/components/emporio/PageHero';
+import Photo from '@/components/emporio/Photo';
 import { Reveal, RevealGroup, RevealItem } from '@/components/emporio/Reveal';
 import { Section, SectionHeading, SpecList, Stat } from '@/components/emporio/ui';
-import { asset, company } from '@/config/emporio';
+import { company } from '@/config/emporio';
 import { fabrica } from '@/content/emporio/fabrica';
 import { pageMetadata } from '../_lib/seo';
 
@@ -25,7 +25,7 @@ export default function FabricaPage() {
       <PageHero
         title={fabrica.hero.title}
         text={fabrica.hero.text}
-        image="/images/fabrica-galpao.svg"
+        image="/images/fabrica-galpao.jpg"
         imageAlt={fabrica.hero.imageAlt}
       />
 
@@ -67,14 +67,7 @@ export default function FabricaPage() {
               <SectionHeading title={fabrica.structure.title} />
             </Reveal>
             <Reveal className="relative mt-10 aspect-[4/3] overflow-hidden" delay={0.1}>
-              <Image
-                src={asset('/images/fabrica-maquina.svg')}
-                alt={fabrica.structure.imageAlt}
-                fill
-                loading="lazy"
-                sizes="(min-width: 1024px) 40vw, 100vw"
-                className="object-cover"
-              />
+              <Photo src="/images/fabrica-maquina.jpg" alt={fabrica.structure.imageAlt} sizes="(min-width: 1024px) 40vw, 100vw" />
             </Reveal>
           </div>
           <RevealGroup as="ul" className="border-t border-osso-300 lg:col-span-7">
@@ -94,14 +87,7 @@ export default function FabricaPage() {
             <SectionHeading title={fabrica.team.title} text={fabrica.team.text} />
           </Reveal>
           <Reveal className="relative aspect-[4/3] overflow-hidden lg:col-span-7" delay={0.1}>
-            <Image
-              src={asset('/images/fabrica-equipe.svg')}
-              alt={fabrica.team.imageAlt}
-              fill
-              loading="lazy"
-              sizes="(min-width: 1024px) 55vw, 100vw"
-              className="object-cover"
-            />
+            <Photo src="/images/fabrica-equipe.jpg" alt={fabrica.team.imageAlt} sizes="(min-width: 1024px) 55vw, 100vw" />
           </Reveal>
         </div>
       </Section>

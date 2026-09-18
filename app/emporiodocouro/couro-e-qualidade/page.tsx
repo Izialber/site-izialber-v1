@@ -1,9 +1,8 @@
-import Image from 'next/image';
 import CtaSection from '@/components/emporio/CtaSection';
 import PageHero from '@/components/emporio/PageHero';
+import Photo from '@/components/emporio/Photo';
 import { Reveal, RevealGroup, RevealItem } from '@/components/emporio/Reveal';
 import { Section, SectionHeading } from '@/components/emporio/ui';
-import { asset } from '@/config/emporio';
 import { couro } from '@/content/emporio/couro';
 import { pageMetadata } from '../_lib/seo';
 
@@ -17,7 +16,7 @@ export default function CouroPage() {
   const t = couro;
   return (
     <>
-      <PageHero title={t.hero.title} text={t.hero.text} image="/images/couro-tipos.svg" imageAlt={t.hero.imageAlt} />
+      <PageHero title={t.hero.title} text={t.hero.text} image="/images/couro-tipos.jpg" imageAlt={t.hero.imageAlt} />
 
       <Section tone="light">
         <Reveal>
@@ -39,14 +38,7 @@ export default function CouroPage() {
             <SectionHeading title={t.origin.title} text={t.origin.text} />
           </Reveal>
           <Reveal className="relative aspect-[4/3] overflow-hidden lg:col-span-7" delay={0.1}>
-            <Image
-              src={asset('/images/couro-origem.svg')}
-              alt={t.origin.imageAlt}
-              fill
-              loading="lazy"
-              sizes="(min-width: 1024px) 55vw, 100vw"
-              className="object-cover"
-            />
+            <Photo src="/images/couro-origem.jpg" alt={t.origin.imageAlt} sizes="(min-width: 1024px) 55vw, 100vw" />
           </Reveal>
         </div>
       </Section>
@@ -72,14 +64,7 @@ export default function CouroPage() {
               <SectionHeading title={t.control.title} text={t.control.text} dark />
             </Reveal>
             <Reveal className="relative mt-10 aspect-[4/3] overflow-hidden" delay={0.1}>
-              <Image
-                src={asset('/images/couro-controle.svg')}
-                alt={t.control.imageAlt}
-                fill
-                loading="lazy"
-                sizes="(min-width: 1024px) 40vw, 100vw"
-                className="object-cover"
-              />
+              <Photo src="/images/couro-controle.jpg" alt={t.control.imageAlt} sizes="(min-width: 1024px) 40vw, 100vw" />
             </Reveal>
           </div>
           <RevealGroup as="ol" className="border-t border-osso-100/15 lg:col-span-7">

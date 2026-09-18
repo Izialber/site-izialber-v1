@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import { asset } from '@/config/emporio';
+import Photo from './Photo';
 import { HeroLine, HeroSequence } from './Reveal';
 import { Container } from './ui';
 
@@ -29,14 +28,7 @@ export default function PageHero({
         {image ? (
           <HeroSequence className="mt-12 lg:mt-16">
             <HeroLine className="relative aspect-[16/10] overflow-hidden">
-              <Image
-                src={asset(image)}
-                alt={imageAlt ?? ''}
-                fill
-                priority
-                sizes="(min-width: 1280px) 80rem, 100vw"
-                className="object-cover"
-              />
+              <Photo src={image} alt={imageAlt ?? ''} sizes="(min-width: 1280px) 80rem, 100vw" />
             </HeroLine>
           </HeroSequence>
         ) : null}

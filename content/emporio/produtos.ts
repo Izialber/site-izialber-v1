@@ -20,9 +20,9 @@ export const produtos = {
         ['Personalização', 'Gravação no couro ou na fivela, etiqueta interna, embalagem'],
       ] as const,
       gallery: [
-        { src: '/images/prod-cintos-1.svg', alt: 'Cinto social de couro preto com fivela prateada' },
-        { src: '/images/prod-cintos-2.svg', alt: 'Cinto tressê em couro conhaque' },
-        { src: '/images/prod-cintos-3.svg', alt: 'Cinto reversível mostrando os dois lados' },
+        { src: '/images/prod-cintos-1.jpg', alt: 'Cinto social de couro preto com fivela prateada' },
+        { src: '/images/prod-cintos-2.jpg', alt: 'Cinto tressê em couro conhaque' },
+        { src: '/images/prod-cintos-3.jpg', alt: 'Cinto reversível mostrando os dois lados' },
       ],
     },
     {
@@ -35,8 +35,8 @@ export const produtos = {
         ['Personalização', 'Gravação a quente, etiqueta interna, embalagem'],
       ] as const,
       gallery: [
-        { src: '/images/prod-carteiras-1.svg', alt: 'Carteira de couro fechada com gravação discreta' },
-        { src: '/images/prod-carteiras-2.svg', alt: 'Porta-cartões de couro com cartões inseridos' },
+        { src: '/images/prod-carteiras-1.jpg', alt: 'Carteira de couro fechada com gravação discreta' },
+        { src: '/images/prod-carteiras-2.jpg', alt: 'Porta-cartões de couro com cartões inseridos' },
       ],
     },
     {
@@ -49,8 +49,8 @@ export const produtos = {
         ['Personalização', 'Forro estampado, gravação, etiqueta, embalagem'],
       ] as const,
       gallery: [
-        { src: '/images/prod-bolsas-1.svg', alt: 'Mini bag de couro com alça de corrente dourada' },
-        { src: '/images/prod-bolsas-2.svg', alt: 'Necessaire de couro aberta mostrando o forro' },
+        { src: '/images/prod-bolsas-1.jpg', alt: 'Mini bag de couro com alça de corrente dourada' },
+        { src: '/images/prod-bolsas-2.jpg', alt: 'Necessaire de couro aberta mostrando o forro' },
       ],
     },
     {
@@ -63,8 +63,8 @@ export const produtos = {
         ['Personalização', 'Gravação, cor do couro, embalagem individual'],
       ] as const,
       gallery: [
-        { src: '/images/prod-acessorios-1.svg', alt: 'Chaveiros de couro em cores variadas' },
-        { src: '/images/prod-acessorios-2.svg', alt: 'Pulseira de couro trançado com fecho metálico' },
+        { src: '/images/prod-acessorios-1.jpg', alt: 'Chaveiros de couro em cores variadas' },
+        { src: '/images/prod-acessorios-2.jpg', alt: 'Detalhe do couro marrom escuro usado nos acessórios' },
       ],
     },
     {
@@ -77,8 +77,8 @@ export const produtos = {
         ['Volumes', 'De pequenas tiragens a campanhas nacionais'],
       ] as const,
       gallery: [
-        { src: '/images/prod-brindes-1.svg', alt: 'Kit corporativo em couro com carteira e chaveiro' },
-        { src: '/images/prod-brindes-2.svg', alt: 'Porta-cartões com logotipo de empresa gravado' },
+        { src: '/images/prod-brindes-1.jpg', alt: 'Kit corporativo em couro com carteira e chaveiro' },
+        { src: '/images/prod-brindes-2.jpg', alt: 'Porta-cartões com logotipo de empresa gravado' },
       ],
     },
   ],

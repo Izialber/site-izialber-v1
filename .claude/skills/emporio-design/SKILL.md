@@ -23,7 +23,7 @@ Nunca usar hex solto em componente. Sempre classe de token.
 | Token | Papel |
 |---|---|
 | `couro-950` a `couro-300` | Marrom conhaque. `couro-600` é a cor de ação. `couro-700/800` para texto secundário sobre claro. |
-| `ebano-950/900/800/700` | Preto industrial quente. Fundos escuros e texto principal sobre claro (`ebano-900`). |
+| `ebano-950/900/800/700` | Marrom profundo (não preto). Fundos escuros e texto principal sobre claro (`ebano-900`). Nunca usar preto puro ou near-black como fundo. |
 | `osso-50/100/200/300` | Off-white. `osso-50` fundo padrão, `osso-100` fundo alternado, `osso-200/300` linhas e divisores. |
 | `dourado`, `dourado-light`, `dourado-dark` | Acento dourado fosco. Uso pontual: foco, marcador ativo, detalhe de linha. Nunca como fundo de área grande. |
 | `erro` | Vermelho terroso para validação. |

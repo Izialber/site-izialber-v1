@@ -7,7 +7,7 @@ export const fabrica = {
   hero: {
     title: 'Uma fábrica feita para produzir com padrão de marca.',
     text: 'Estrutura industrial, equipe especializada e revisão peça a peça. É assim que sustentamos o mesmo acabamento do primeiro ao último lote.',
-    imageAlt: 'Vista geral do galpão de produção com as linhas de costura',
+    imageAlt: 'Bancada de trabalho com peça de couro, linha e ferramentas de corte',
   },
   history: {
     title: 'Nossa história',
@@ -52,7 +52,7 @@ export const fabrica = {
   team: {
     title: 'Equipe',
     text: 'TODO: descrever a equipe de forma real. Quantas pessoas no desenvolvimento, quantas na produção, tempo médio de casa, formação dos responsáveis técnicos.',
-    imageAlt: 'Equipe de produção reunida no galpão da fábrica',
+    imageAlt: 'Mãos riscando o molde sobre o couro na bancada',
   },
   quality: {
     title: 'Qualidade',

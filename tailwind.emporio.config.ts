@@ -22,11 +22,12 @@ const config: Config = {
           400: '#C08F5C',
           300: '#D4AC85',
         },
+        // Fundo escuro em marrom profundo (não preto), com o texto claro em osso.
         ebano: {
-          950: '#0D0B0A',
-          900: '#16130F',
-          800: '#211D18',
-          700: '#2E2820',
+          950: '#2A1810',
+          900: '#35200F',
+          800: '#442B18',
+          700: '#553622',
         },
         osso: {
           50: '#FAF7F2',

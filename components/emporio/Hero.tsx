@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import { asset, href, whatsappUrl } from '@/config/emporio';
+import { href, whatsappUrl } from '@/config/emporio';
 import { home } from '@/content/emporio/home';
+import Photo from './Photo';
 import { HeroLine, HeroSequence } from './Reveal';
 import { ButtonLink, Container } from './ui';
 
@@ -28,13 +28,11 @@ export default function Hero() {
         </HeroSequence>
 
         <div className="relative aspect-[16/10] w-full overflow-hidden lg:col-span-5 lg:aspect-[4/5]">
-          <Image
-            src={asset('/images/hero-textura-couro.svg')}
+          <Photo
+            src="/images/hero-textura-couro.jpg"
             alt={t.imageAlt}
-            fill
-            priority
+            width={1400}
             sizes="(min-width: 1024px) 40vw, 100vw"
-            className="object-cover"
           />
         </div>
       </Container>

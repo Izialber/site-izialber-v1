@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import { asset } from '@/config/emporio';
+import Photo from './Photo';
 import { RevealGroup, RevealItem } from './Reveal';
 
 export default function Gallery({
@@ -13,14 +12,7 @@ export default function Gallery({
     <RevealGroup as="ul" className={`grid grid-cols-2 gap-4 sm:grid-cols-3 lg:gap-6 ${className}`}>
       {items.map((img) => (
         <RevealItem as="li" key={img.src} className="relative aspect-square overflow-hidden bg-osso-200">
-          <Image
-            src={asset(img.src)}
-            alt={img.alt}
-            fill
-            loading="lazy"
-            sizes="(min-width: 640px) 33vw, 50vw"
-            className="object-cover"
-          />
+          <Photo src={img.src} alt={img.alt} width={1200} sizes="(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 50vw" />
         </RevealItem>
       ))}
     </RevealGroup>
