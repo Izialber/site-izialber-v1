@@ -1,2 +1,6 @@
 # Cloudflare Pages: redireciona a raiz para o idioma padrão (PT)
 / /pt/ 302
+
+# Empório do Couro: rota canônica em minúsculas
+/EmporioDoCouro /emporiodocouro/ 301
+/EmporioDoCouro/* /emporiodocouro/:splat 301
