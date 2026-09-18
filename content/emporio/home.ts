@@ -60,7 +60,7 @@ export const home = {
         title: 'Bolsas e mini bags',
         text: 'Desenvolvimento sob medida para coleções de moda, do molde à ferragem.',
         image: '/images/cat-bolsas.jpg',
-        imageAlt: 'Mini bag de couro com alça de corrente',
+        imageAlt: 'Mini bag de couro conhaque com alça fina',
         specs: [
           ['Modelos', 'Bolsa, mini bag, necessaire'],
           ['Personalização', 'Ferragem, forro, gravação, embalagem'],

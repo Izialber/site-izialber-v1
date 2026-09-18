@@ -49,8 +49,8 @@ export const produtos = {
         ['Personalização', 'Forro estampado, gravação, etiqueta, embalagem'],
       ] as const,
       gallery: [
-        { src: '/images/prod-bolsas-1.jpg', alt: 'Mini bag de couro com alça de corrente dourada' },
-        { src: '/images/prod-bolsas-2.jpg', alt: 'Necessaire de couro aberta mostrando o forro' },
+        { src: '/images/prod-bolsas-1.jpg', alt: 'Clutch de couro marrom sobre superfície de madeira' },
+        { src: '/images/prod-bolsas-2.jpg', alt: 'Necessaire de couro conhaque com o compartimento aberto' },
       ],
     },
     {

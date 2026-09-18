@@ -9,7 +9,7 @@ Todas as imagens da seção ficam em `public/emporiodocouro/images/`. Hoje são 
 | `hero-textura-couro.jpg`, `og-default.jpg` | https://unsplash.com/photos/1716295177956-420a647c83ac (Jayanth Muppaneni) |
 | `cat-cintos.jpg` | https://unsplash.com/photos/1711443982852-b3df5c563448 (saeed karimi) |
 | `cat-carteiras.jpg` | https://unsplash.com/photos/1620109176813-e91290f6c795 (Kisetsu Co) |
-| `cat-bolsas.jpg` | https://unsplash.com/photos/1598532163257-ae3c6b2524b6 (Irene Kredenets) |
+| `cat-bolsas.jpg` | https://unsplash.com/photos/1718622795525-2295971921ba (PROBAG FACTORY) |
 | `cat-acessorios.jpg` | https://unsplash.com/photos/1676276550349-580c49631496 (Aleksandrs Karevs) |
 | `cat-brindes.jpg`, `brindes-kit.jpg` | https://unsplash.com/photos/1599066852653-42826a50b163 (Logan Weaver) |
 | `processo-corte.jpg` | https://unsplash.com/photos/1787005241178-c9006ea9610b (Cohen Berg) |
@@ -26,8 +26,8 @@ Todas as imagens da seção ficam em `public/emporiodocouro/images/`. Hoje são 
 | `prod-cintos-3.jpg` | https://unsplash.com/photos/1679759022456-a7eae2257ba2 (seeetz) |
 | `prod-carteiras-1.jpg` | https://unsplash.com/photos/1531190260877-c8d11eb5afaf (Two Paddles Axe and Leatherwork) |
 | `prod-carteiras-2.jpg` | https://unsplash.com/photos/1612023395494-1c4050b68647 (Oliur) |
-| `prod-bolsas-1.jpg` | https://unsplash.com/photos/1603219527847-24c87f552a77 (Alexandr Sadkov) |
-| `prod-bolsas-2.jpg` | https://unsplash.com/photos/1691480150204-66dd1eb77391 (personalgraphic.com) |
+| `prod-bolsas-1.jpg` | https://unsplash.com/photos/1749294435694-ce3c586591e6 (Ocult Store) |
+| `prod-bolsas-2.jpg` | https://unsplash.com/photos/1644258559678-2eac1b8b79b6 (Alexander Kirov) |
 | `prod-acessorios-1.jpg` | https://unsplash.com/photos/1676276550322-7623a2545b24 (Aleksandrs Karevs) |
 | `prod-acessorios-2.jpg` | https://unsplash.com/photos/1755541608110-3440a0f168ed (The New York Public Library) |
 | `prod-brindes-1.jpg` | https://unsplash.com/photos/1650192923993-171bf25096c2 (Joel Lee) |
