@@ -1,0 +1,60 @@
+/* Estilos da seção Empório do Couro.
+   Tailwind próprio (tailwind.emporio.config.ts), carregado só nas rotas da seção.
+   Regras escopadas em .emporio-scope para não herdar nem vazar para o site pessoal. */
+
+@config "../../tailwind.emporio.config.ts";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body:has(> .emporio-scope) {
+  background-color: theme('colors.osso.50');
+}
+
+.emporio-scope {
+  background-color: theme('colors.osso.50');
+  color: theme('colors.ebano.900');
+  font-family: var(--font-emporio-sans), system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.emporio-scope h1,
+.emporio-scope h2,
+.emporio-scope h3,
+.emporio-scope h4 {
+  font-family: var(--font-emporio-serif), Georgia, serif;
+  font-weight: 400;
+  font-variation-settings: 'opsz' 144;
+}
+
+.emporio-scope :focus-visible {
+  outline: 2px solid theme('colors.dourado.DEFAULT');
+  outline-offset: 3px;
+}
+
+.emporio-scope ::selection {
+  background-color: theme('colors.couro.300');
+  color: theme('colors.ebano.950');
+}
+
+.emporio-scope input,
+.emporio-scope select,
+.emporio-scope textarea {
+  font: inherit;
+  color: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .emporio-scope *,
+  .emporio-scope *::before,
+  .emporio-scope *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
