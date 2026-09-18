@@ -1,6 +1,7 @@
 /* Estilos da seção Empório do Couro (fonte). O arquivo emporio.css é gerado
    pelo script emporio:css (Tailwind CLI com tailwind.emporio.config.ts) antes
-   de build e dev, e não é versionado.
+   de build e dev, e é versionado: o Cloudflare Pages roda `npx next build`
+   sem o hook prebuild. Não editar emporio.css à mão.
    Carregado só nas rotas da seção.
    Regras escopadas em .emporio-scope para não herdar nem vazar para o site pessoal. */
 

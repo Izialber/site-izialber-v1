@@ -20,7 +20,7 @@ Arquivos do site pessoal tocados (todos de forma aditiva, sem mudar o comportame
 - `app/robots.ts`: acrescenta `Disallow: /emporiodocouro/` enquanto `INDEXABLE` for false.
 - `public/_redirects`: 301 de `/EmporioDoCouro` e `/EmporioDoCouro/*` para minúsculas.
 - `tailwind.config.ts`: exclui as pastas da seção do scan (a seção usa o Tailwind próprio).
-- `package.json`: dependência `framer-motion` e os scripts `emporio:css`, `prebuild` e `predev`, que geram `app/emporiodocouro/emporio.css` a partir de `emporio.src.css` com o Tailwind CLI antes de cada build e dev. O arquivo gerado não é versionado (`.gitignore`).
+- `package.json`: dependência `framer-motion` e os scripts `emporio:css`, `prebuild` e `predev`, que geram `app/emporiodocouro/emporio.css` a partir de `emporio.src.css` com o Tailwind CLI antes de cada build e dev local. O arquivo gerado é versionado porque o Cloudflare Pages roda `npx next build` direto (sem o hook `prebuild`). Depois de editar `emporio.src.css` ou `tailwind.emporio.config.ts`, rode `npm run emporio:css` e faça commit do `emporio.css` junto.
 
 ## Como editar
 

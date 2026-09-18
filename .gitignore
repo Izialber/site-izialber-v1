@@ -24,6 +24,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# CSS gerado da seção Empório do Couro (npm run emporio:css)
-/app/emporiodocouro/emporio.css
