@@ -5,6 +5,10 @@ const config: Config = {
     './app/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './content/**/*.{ts,tsx}',
+    // A seção Empório do Couro tem Tailwind próprio (tailwind.emporio.config.ts).
+    '!./app/emporiodocouro/**',
+    '!./components/emporio/**',
+    '!./content/emporio/**',
   ],
   theme: {
     extend: {
