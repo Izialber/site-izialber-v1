@@ -8,7 +8,7 @@ export default function Hero() {
   const t = home.hero;
   return (
     <section className="bg-ebano-950 pt-[72px] text-osso-100">
-      <Container className="grid gap-12 py-20 lg:grid-cols-12 lg:items-end lg:gap-8 lg:py-32">
+      <Container className="grid gap-12 py-20 lg:grid-cols-12 lg:items-center lg:gap-8 lg:py-24">
         <HeroSequence className="lg:col-span-7">
           <HeroLine>
             <p className="text-small text-dourado-light">{t.kicker}</p>
@@ -27,7 +27,7 @@ export default function Hero() {
           </HeroLine>
         </HeroSequence>
 
-        <div className="relative aspect-[4/5] w-full overflow-hidden lg:col-span-5">
+        <div className="relative aspect-[16/10] w-full overflow-hidden lg:col-span-5 lg:aspect-[4/5]">
           <Image
             src={asset('/images/hero-textura-couro.svg')}
             alt={t.imageAlt}

@@ -13,7 +13,7 @@ export default function BrandsGrid() {
       </Reveal>
       <RevealGroup
         as="ul"
-        className="mt-12 grid grid-cols-2 border-l border-t border-osso-300 sm:grid-cols-3 lg:grid-cols-4"
+        className="mt-12 grid grid-cols-2 border-l border-t border-osso-300 lg:grid-cols-4"
       >
         {BRANDS.map((brand) => (
           <RevealItem

@@ -43,7 +43,7 @@ export default function Navbar() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-40 transition-colors duration-300 ${
-        solid ? 'bg-ebano-950/95 backdrop-blur' : 'bg-transparent'
+        solid ? 'bg-ebano-950' : 'bg-transparent'
       }`}
     >
       <div className={`${container} flex h-[72px] items-center justify-between gap-8`}>

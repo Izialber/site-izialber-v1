@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "emporio:css": "tailwindcss -c tailwind.emporio.config.ts -i ./app/emporiodocouro/emporio.src.css -o ./app/emporiodocouro/emporio.css --minify",
+    "prebuild": "npm run emporio:css",
+    "predev": "npm run emporio:css"
   },
   "dependencies": {
     "framer-motion": "^13.4.0",

@@ -19,7 +19,7 @@ export default function CategoryCards() {
               href={`${href('/produtos')}#${item.slug}`}
               className="grid gap-8 py-10 transition-colors duration-150 md:grid-cols-12 md:items-center lg:py-12"
             >
-              <div className="relative aspect-[4/5] overflow-hidden md:col-span-3">
+              <div className="relative aspect-[4/5] max-w-[20rem] overflow-hidden md:col-span-4 lg:col-span-3">
                 <Image
                   src={asset(item.image)}
                   alt={item.imageAlt}
@@ -29,13 +29,13 @@ export default function CategoryCards() {
                   className="object-cover"
                 />
               </div>
-              <div className="md:col-span-5">
+              <div className="md:col-span-8 lg:col-span-5">
                 <h3 className="text-h3 text-ebano-900 transition-colors duration-150 group-hover:text-couro-700">
                   {item.title}
                 </h3>
                 <p className="mt-3 max-w-[48ch] text-body text-couro-800">{item.text}</p>
               </div>
-              <div className="md:col-span-4">
+              <div className="md:col-span-8 md:col-start-5 lg:col-span-4 lg:col-start-auto">
                 <SpecList rows={item.specs} />
               </div>
             </Link>

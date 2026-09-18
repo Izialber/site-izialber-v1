@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, useReducedMotion, type Variants } from 'framer-motion';
-import type { ReactNode } from 'react';
+import { Children, cloneElement, isValidElement, type ReactNode } from 'react';
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
@@ -80,7 +80,9 @@ export function RevealItem({
   );
 }
 
-// Orquestração única da carga do hero: filhos entram em sequência.
+// Orquestração única da carga do hero, em CSS puro (keyframes em emporio.css)
+// para o texto não depender do JS para aparecer. Cada HeroLine recebe um
+// atraso crescente por ordem.
 export function HeroSequence({
   children,
   className,
@@ -89,28 +91,26 @@ export function HeroSequence({
   className?: string;
 }) {
   return (
-    <motion.div
-      className={className}
-      initial="hidden"
-      animate="show"
-      variants={{ hidden: {}, show: { transition: { staggerChildren: 0.08, delayChildren: 0.1 } } }}
-    >
-      {children}
-    </motion.div>
+    <div className={className}>
+      {Children.map(children, (child, i) =>
+        isValidElement<{ index?: number }>(child) ? cloneElement(child, { index: i }) : child,
+      )}
+    </div>
   );
 }
 
-export function HeroLine({ children, className }: { children: ReactNode; className?: string }) {
-  const reduce = useReducedMotion();
+export function HeroLine({
+  children,
+  className = '',
+  index = 0,
+}: {
+  children: ReactNode;
+  className?: string;
+  index?: number;
+}) {
   return (
-    <motion.div
-      className={className}
-      variants={{
-        hidden: { opacity: 0, y: reduce ? 0 : 16 },
-        show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: EASE } },
-      }}
-    >
+    <div className={`emporio-hero-line ${className}`} style={{ animationDelay: `${100 + index * 80}ms` }}>
       {children}
-    </motion.div>
+    </div>
   );
 }
