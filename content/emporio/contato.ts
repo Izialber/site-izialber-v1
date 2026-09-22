@@ -36,7 +36,6 @@ export const contato = {
     categories: [
       'Cintos',
       'Carteiras e porta-cartões',
-      'Bolsas e mini bags',
       'Chaveiros, pulseiras e acessórios',
       'Brindes corporativos',
       'Mais de uma categoria',

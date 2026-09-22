@@ -36,7 +36,7 @@ export const fabrica = {
       },
       {
         title: 'Costura e montagem',
-        text: 'Linhas de costura dedicadas por categoria de produto, com costureiras especializadas em cintos, pequenas peças e bolsas.',
+        text: 'Linhas de costura dedicadas por categoria de produto, com costureiras especializadas em cintos e pequenas peças.',
       },
       {
         title: 'Acabamento e gravação',

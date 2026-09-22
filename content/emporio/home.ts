@@ -4,7 +4,7 @@ export const home = {
   meta: {
     title: 'Empório do Couro, fábrica de artigos de couro para marcas',
     description:
-      'Indústria de couro premium com produção private label de cintos, carteiras, bolsas e acessórios para marcas de moda, varejo e brindes corporativos.',
+      'Indústria de couro premium com produção private label de cintos, carteiras e acessórios para marcas de moda, varejo e brindes corporativos.',
   },
   hero: {
     kicker: 'Indústria de couro private label',
@@ -25,9 +25,9 @@ export const home = {
     ] as const,
   },
   brands: {
-    title: 'Quem confia na nossa produção',
-    text: 'Marcas que produzem ou já produziram conosco.',
-    note: 'Nomes exibidos com autorização de cada marca. Não divulgamos volumes, contratos ou dados de clientes.',
+    title: 'Produzimos para as melhores marcas do Brasil',
+    text: 'Atendemos marcas de moda, varejo e brindes corporativos em todo o país, sempre em private label e sob acordo de confidencialidade.',
+    note: 'Não divulgamos nomes, volumes ou dados de clientes sem autorização.',
   },
   categories: {
     title: 'O que fabricamos',
@@ -53,17 +53,6 @@ export const home = {
         specs: [
           ['Modelos', 'Carteira, porta-cartões, porta-documentos'],
           ['Personalização', 'Gravação a quente, forro, etiqueta'],
-        ] as const,
-      },
-      {
-        slug: 'bolsas',
-        title: 'Bolsas e mini bags',
-        text: 'Desenvolvimento sob medida para coleções de moda, do molde à ferragem.',
-        image: '/images/cat-bolsas.jpg',
-        imageAlt: 'Mini bag de couro conhaque com alça fina',
-        specs: [
-          ['Modelos', 'Bolsa, mini bag, necessaire'],
-          ['Personalização', 'Ferragem, forro, gravação, embalagem'],
         ] as const,
       },
       {

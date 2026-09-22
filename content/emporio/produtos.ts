@@ -2,7 +2,7 @@ export const produtos = {
   meta: {
     title: 'Produtos',
     description:
-      'Cintos, carteiras, bolsas, acessórios e brindes corporativos em couro, desenvolvidos e produzidos em private label para marcas e empresas.',
+      'Cintos, carteiras, acessórios e brindes corporativos em couro, desenvolvidos e produzidos em private label para marcas e empresas.',
   },
   hero: {
     title: 'Cinco linhas de produto, um mesmo padrão de fábrica.',
@@ -37,20 +37,6 @@ export const produtos = {
       gallery: [
         { src: '/images/prod-carteiras-1.jpg', alt: 'Carteira de couro fechada com gravação discreta' },
         { src: '/images/prod-carteiras-2.jpg', alt: 'Porta-cartões de couro com cartões inseridos' },
-      ],
-    },
-    {
-      slug: 'bolsas',
-      title: 'Bolsas e mini bags',
-      lead: 'Desenvolvimento sob medida para coleções de moda. Do molde à ferragem, construímos a peça com a equipe de estilo da marca.',
-      details: [
-        ['Modelos', 'Bolsa tiracolo, mini bag, necessaire, clutch'],
-        ['Ferragens', 'Corrente, mosquetão, fecho magnético, zíper'],
-        ['Personalização', 'Forro estampado, gravação, etiqueta, embalagem'],
-      ] as const,
-      gallery: [
-        { src: '/images/prod-bolsas-1.jpg', alt: 'Clutch de couro marrom sobre superfície de madeira' },
-        { src: '/images/prod-bolsas-2.jpg', alt: 'Necessaire de couro conhaque com o compartimento aberto' },
       ],
     },
     {

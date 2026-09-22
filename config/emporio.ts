@@ -16,12 +16,13 @@ export const SITE_URL =
 // hospedada em izialber.com.br. Ligar somente no domínio definitivo.
 export const INDEXABLE = false as boolean;
 
-// Exibição da grade "Quem confia na nossa produção". Depende de autorização
-// contratual de cada marca. Desligar remove a seção inteira da Home.
+// Exibição da seção "Produzimos para as melhores marcas do Brasil" na Home.
+// Desligar remove a seção inteira.
 export const SHOW_BRANDS = true as boolean;
 
-// Marcas que produzem ou já produziram conosco. Somente texto, nunca logotipo.
-// Remover daqui qualquer marca sem autorização para exibição.
+// Marcas que produzem ou já produziram conosco. Mantido apenas como registro
+// interno: a seção pública não exibe mais nomes individuais, só a declaração
+// genérica em content/emporio/home.ts (brands.title / brands.text).
 export const BRANDS: string[] = [
   'Brooksfield',
   'Via Veneto',
